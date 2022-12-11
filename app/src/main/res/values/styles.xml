@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="AppTheme" parent="@android:style/Theme.Material.NoActionBar">
+		<item name="android:colorPrimary">@color/colorPrimary</item>
+		<item name="android:colorBackground">@color/colorBackground</item>
+		<item name="android:statusBarColor">@color/colorPrimary</item>
+		<item name="android:navigationBarColor">@color/colorPrimary</item>
+		<item name="android:navigationBarDividerColor">@color/colorDivider</item>
+		<item name="android:colorControlNormal">#fff</item>
+		<item name="android:colorControlHighlight">#fff</item>
+		<item name="android:colorControlActivated">#fff</item>
+	</style>
+	<style name="ToolbarStyle" parent="@android:Widget.Material.ActionBar.Solid">
+		<item name="android:titleTextColor">?android:textColorPrimary</item>
+	</style>
+</resources>

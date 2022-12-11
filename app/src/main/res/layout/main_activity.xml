@@ -1,0 +1,19 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<Toolbar
+		android:layout_width="match_parent"
+		android:layout_height="?android:actionBarSize"
+		android:id="@+id/main_activity_toolbar"
+		style="@style/ToolbarStyle"/>
+
+	<fragment
+		android:id="@+id/main_fragment"
+		android:name="vxndo.aide.editor.CodeEditorFragment"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"/>
+
+</LinearLayout>
